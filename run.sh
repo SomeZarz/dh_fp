@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker build -t fyp-image .
+docker build -t dh-image .
 
-docker run --name fyp-container -d -v $(pwd)/src:/code/src fyp-image
+docker run --name dh-container -d -v $(pwd)/src:/code/src dh-image
